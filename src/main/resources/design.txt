@@ -1,13 +1,8 @@
-# interstellar-transport-system
-An interstellar transport system used by Earth’s inhabitants
-
 Startup services
 -----------------
 DataLoaderImpl.JAVA
-```
 -Waits for the Spring Boot context to start than reads the XLS data file
 -Persists the data file records into the in memory derby DB
-```
 
 ORM
 -------
@@ -20,25 +15,21 @@ a set of Planets and a set of Routes but instead went with the below more perfro
 Business Logic
 -----------------
 ShortestPathService.java
-```
 -Contains the DijkstraAlgorithm business logic
 -Uses the strategy pattern to delegate finding the shortest path to SimpleDirectedWeightedGraph
 -Lazily initializes the SimpleDirectedWeightedGraph at service invocation time
-```
+
 
 Rest Layer
 -------------
 InterstellarRestController.java
-```
 -Reuses ShortestPathService.java to return the shortes path 
 -Sample usage-->http://localhost:8080/shortestpath/A/Z
-```
 
 HATEOAS endpoints that expose the DB objetcs
-```
 -Sample usage-->http://localhost:8080/planets
 -Sample usage-->http://localhost:8080/routes
-```
+
 
 SOAP layer
 -------------
@@ -53,3 +44,4 @@ Front end
 Unit testing
 -------------
 @SpringBootTest with assertj
+

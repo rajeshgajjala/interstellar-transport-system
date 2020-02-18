@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Tue Feb 18 11:30:59 IST 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0170-56e2-a85e-00000e0386b0 
+on database directory memory:/Users/vrajesh/POC/Rajesh-Discovery-Assignment/interstellar-transport-system/testdb with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+Loaded from file:/Users/vrajesh/.m2/repository/org/apache/derby/derby/10.12.1.1/derby-10.12.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_221-b11
+user.dir=/Users/vrajesh/POC/Rajesh-Discovery-Assignment/interstellar-transport-system
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.13.6
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
